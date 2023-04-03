@@ -1,0 +1,724 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Bungee&family=Concert+One&family=Dancing+Script&family=Lobster&family=Luckiest+Guy&family=Pacifico&family=Shantell+Sans:wght@300&family=Shrikhand&family=Special+Elite&family=Tilt+Neon&family=Tilt+Prism&family=Unica+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    background-color: rgb(27, 27, 27);
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+    height: 17vh;
+}
+.logo{
+    margin-top:15px;
+}
+.join{
+    background:url(./imageGym/back1.jpg) no-repeat ;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    background-attachment: fixed;
+    
+}
+.navigation ul li{
+    display: inline-block;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 50px;
+    padding-right: 12px;
+    font-size: 1.3em;
+    transition:0.7s ease;
+    
+}
+.navigation ul li a:hover{
+   background-color: rgb(221, 71, 71);
+   border-radius: 10px;
+   padding: 0.3em 0.6em;
+}
+.join1 {
+    background-color: rgb(211, 207, 202);
+    color: brown;
+    text-decoration: none;
+    font-size: 1.3em;
+    margin-left: 16px;
+    padding: 0.5em 1.1em;
+    display: inline-block;
+    transition:  0.7s ease;
+}
+.join1:hover{
+    transform: scale(1.07);
+}
+.classes{
+    width: 40%;
+    margin-left: 90px;
+    margin-bottom: 70px;
+}
+.classes h1{
+    font-family: 'Unica One', cursive;
+    color: rgb(248, 248, 248);
+    font-size: 3.5em;
+    padding-top: 50px;
+}
+.classes p{
+    color: rgb(211, 205, 205);
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.classes a{
+    text-decoration: none;
+    font-size: 1.4em;
+    color: aliceblue;
+    background-color: rgb(99, 11, 11);
+    display: inline-block;
+    padding: 0.5em 1.1em;
+    transition: 0.7s ease;
+}
+.classes a:hover{
+    transform: scale(1.1);
+}
+.aboutgym{
+    width: 100%;
+    min-height: 100vh;
+    background: url(./imageGym/back11.jpg) no-repeat;
+    display: flex;
+    background-size: cover;
+    align-items: center;
+}
+.body{
+    margin-bottom: 400px;
+    margin-left: 200px;
+}
+.eq{
+    display: inline-block;
+}
+.body h4{
+    background-color: aliceblue;
+    padding: 0.5em 1.1em;
+    letter-spacing: 1px;
+    display: inline-block;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+.body h2{
+    font-family: 'Tilt Prism', cursive;
+    margin-bottom: 50px;
+    font-size: 3em;
+    color: rgb(255, 21, 21);   
+}
+.body p{
+    color: antiquewhite;
+}
+.aquip{
+    margin-top: 350px;
+    margin-right: 350px;
+}
+.cc1{
+    color: rgb(168, 12, 12);
+    font-size: 1.1em;
+    background-color: rgb(240, 168, 234);
+    padding: 10px;
+    border-radius: 100%;
+}
+.inl{
+    display: inline-block;
+    margin-left: 10px;
+}
+.Equipment{
+    background-color: antiquewhite;
+    padding: 0.4em 1em;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.Equipment h4{
+    margin-top: 15px;
+}
+.Equipment p{
+    
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+.fitness{
+    background-color: antiquewhite;
+    padding: 0.4em 1em;
+    border-radius: 15px;
+}
+.fitness h4{
+    margin-top: 15px;
+}
+.fitness p{
+    
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+.upcomming{
+    background-color: aliceblue;
+    width: 100%;
+    height: 90vh;
+   
+}
+.inline{
+    display: inline-block;
+    
+}
+.offer{
+    margin-bottom: 400px;
+    margin-left: 50px;
+}
+.offer h4{
+    background-color: rgb(160, 37, 28);
+    color: rgb(255, 255, 255);
+    padding: 0.5em 1.1em;
+    letter-spacing: 1px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+.offer h2{
+    font-family: 'Bungee', cursive;
+    margin-bottom: 40px;
+    font-size: 1.8em;
+    color: rgb(146, 142, 142);
+    
+}
+.offer p{
+    font-size:1.2em ;
+    
+    margin-bottom: 40px;
+}
+.f1{
+    font-size: 2.2em;
+    color: brown;
+    background-color: rgb(255, 255, 255);
+    border: thick double brown;
+    padding: 0.2em 0.5em ;
+    display: inline-block;
+    transition: 0.7s ease;
+}
+.f1:hover{
+    transform: scale(1.1);
+}
+.f2{
+    font-size: 2.2em;
+    color: rgb(245, 245, 245);
+    background-color: brown;
+    padding: 0.3em 0.5em ;
+    margin-left: 35px;
+    display: inline-block;
+    transition: 0.7s ease;
+}
+.f2:hover{
+    transform: scale(1.1);
+}
+.img {
+    margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.up1{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: brown;
+    margin-left: 150px;
+    padding: 0.5em 1.1em;
+    font-size: 1.1em;
+    display: inline-block;
+    transition: 0.7s ease;
+    
+}  
+.up1:hover{
+    transform: scale(1.1);
+} 
+.joinOur{
+    background: url(./imageGym/backk.avif) no-repeat;
+    width: 100%;
+    height: 120vh;
+}
+.join11 h4{
+    background-color: rgb(160, 37, 28);
+    color: rgb(255, 255, 255);
+    padding: 0.5em 1.1em;
+    letter-spacing: 1px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-bottom: 80px;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+.join11 h2{
+    font-family: 'Special Elite', cursive;
+    color: aliceblue;
+    font-size: 2.8em;
+    margin-left: 70px;
+    margin-bottom: 40px;
+}
+.join11 p{
+    color: antiquewhite;
+    font-size: 1.1em;
+    margin-left: 70px;
+    margin-bottom: 40px;
+}
+.oo{
+    color: rgb(168, 12, 12);
+    font-size: 1.1em;
+    background-color: rgb(240, 168, 234);
+    padding: 10px;
+    border-radius: 100%;
+    
+}
+.oo1{
+    font-size: 1.2em;
+    color: aqua;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.oo2{
+    color: rgb(255, 252, 252);
+    margin-bottom: 20px;
+}
+.ourrr1{
+    margin-left: 60px;
+    margin-bottom: 40px;
+}
+.our3 {
+    color: rgb(245, 245, 245);
+    font-size: 1.5em;
+    display: inline-block;
+    margin-left: 50px;
+    border-radius: 10px 100px / 120px;
+    background-color: rgb(18, 18, 19);
+    border: solid;
+    padding: 20px;
+}
+.trainer{
+    background-color: rgb(211, 203, 195);
+    width: 100%;
+    min-height: 100vh;
+}
+.top h4{
+    background-color: rgb(160, 37, 28);
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+    padding: 0.5em 1.1em;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-top: 60px;
+    margin-left: 560px;
+}
+.top h2{
+    font-family: 'Concert One', cursive;
+    margin-left: 450px;
+    margin-bottom: 40px;
+    font-size: 2.9em;
+}
+.top p{
+    margin-left: 400px;
+    font-size: 1.2em;
+    color: rgb(36, 56, 75);
+}
+.trainer2{
+    display: inline-block;
+    padding: 50px;
+    margin-left: 50px;
+}
+
+.trai1{
+    background-color: rgb(5, 148, 231);
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+    padding: 1.1em 1.1em;
+    width: 40%;
+    margin-left: 200px;
+    border-radius: 10% / 50%;
+    transition: 0.7s ease;
+}
+.trai1:hover{
+    transform: scale(1.1);
+}
+.pp1{
+    font-size: 1.3em;
+    margin-left: 260px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.icon11{
+    margin-left: 200px;
+}
+.icon111{
+    padding: 10px;
+    font-size: 1.1em;
+    color: rgb(68, 138, 199);
+}
+.trai2{
+    background-color: rgb(5, 148, 231);
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+    padding: 1.1em 1.1em;
+    width: 40%;
+    margin-left: 70px;
+    border-radius: 10% / 50%;
+    transition: 0.7s ease;
+}
+.trai2:hover{
+    transform: scale(1.1);
+}
+.pp2{
+    font-size: 1.3em;
+    margin-left: 150px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.icon22{
+    margin-left: 100px;
+}
+.icon222{
+    padding: 10px;
+    font-size: 1.1em;
+    color: rgb(68, 138, 199);
+}
+.trai3{
+    background-color: rgb(5, 148, 231);
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+    padding: 1.1em 1.1em;
+    width: 40%;
+    margin-left: 120px;
+    border-radius: 10% / 50%;
+    transition: 0.7s ease;
+}
+.trai3:hover{
+    transform: scale(1.1);
+}
+.pp3{
+    font-size: 1.3em;
+    margin-left: 170px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.icon33{
+    margin-left: 130px;
+}
+.icon333{
+    padding: 10px;
+    font-size: 1.1em;
+    color: rgb(68, 138, 199);
+}
+.trai4{
+    background-color: rgb(5, 148, 231);
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+    padding: 1.1em 1.1em;
+    width: 40%;
+    margin-left: 190px;
+    border-radius: 10% / 50%;
+    transition: 0.7s ease;
+}
+.trai4:hover{
+    transform: scale(1.1);
+}
+.pp4{
+    font-size: 1.3em;
+    margin-left: 240px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.icon44{
+    margin-left: 200px;
+}
+.icon444{
+    padding: 10px;
+    font-size: 1.1em;
+    color: rgb(68, 138, 199);
+}
+.plan{
+    background-color: rgb(236, 245, 245);
+    width: 100%;
+    min-height: 100vh;
+}
+.plan1{
+    display: inline-block;
+    padding: 50px;
+}
+.plan2{
+    margin-bottom: 60px;
+}
+.plan2 h4{
+    background-color: rgb(160, 37, 28);
+    color: rgb(255, 255, 255);
+    padding: 0.5em 1.1em;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.plan2 h2{
+    font-family: 'Concert One', cursive;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+.plan2 p{
+    font-size: 1.2em;
+}
+.plan2 p span{
+    color: rgb(146, 2, 2);
+}
+.plan3{
+    background-color: rgb(31, 29, 29);
+    width: 100%;
+    min-height: 93vh;
+}
+.basic{
+    margin-left: 25px;
+    padding: 15px;
+}
+.bas {
+    font-size: 2em;
+    color: brown;
+    
+}
+.bas span{
+    font-size: 0.6em;
+    color: antiquewhite;
+}
+.ico{
+    font-size: 1em;
+    color: aliceblue;
+}
+.pg{
+    font-family: 'Alkatra', cursive;
+    font-size: 1.1em;
+    color: aliceblue;
+    display: inline-block;
+    padding: 10px;
+}
+.purch1{
+    text-decoration: none;
+    background-color: rgb(160, 37, 28);
+    color: rgb(255, 255, 255);
+    padding: 0.5em 1.1em;
+    font-size: 1em;
+    margin-left: 78px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.plan4{
+    background-color: rgb(153, 155, 156);
+    width: 100%;
+    min-height: 93vh;
+}
+.premium{
+    margin-left: 25px;
+    padding: 15px;
+}
+.pre{
+    font-size: 2em;
+    color: brown;
+}
+.pre span{
+    font-size: 0.6em;
+    color: antiquewhite;
+}
+.ico1{
+    font-size: 1em;
+    color: aliceblue;
+}
+.pg1{
+    font-family: 'Alkatra', cursive;
+    font-size: 1.1em;
+    color: aliceblue;
+    display: inline-block;
+    padding: 10px;
+}
+.purch2{
+    text-decoration: none;
+    background-color: rgb(160, 37, 28);
+    color: rgb(255, 255, 255);
+    padding: 0.5em 1.1em;
+    font-size: 1em;
+    margin-left: 78px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.shop{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    min-height: 100vh;
+}
+.online h4{
+    background-color: rgb(160, 37, 28);
+    color: rgb(255, 255, 255);
+    padding: 0.5em 1.1em;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-left: 370px;
+    margin-left: 560px;
+}
+.online h2{
+    font-family: 'Luckiest Guy', cursive;
+    color: rgb(13, 13, 14);
+    margin-left: 450px;
+    margin-bottom: 40px;
+    font-size: 2.9em;
+}
+.online p{
+    margin-left: 400px;
+    font-size: 1.2em;
+    color: rgb(36, 56, 75);
+}
+.acheter1{
+    display: inline-block;
+    padding: 50px;
+}
+.dumble{
+    background-color: rgb(237, 238, 238);
+    padding: 40px;
+}
+.dumble p{
+    font-family: 'Shrikhand', cursive;
+    color: rgb(6, 46, 82);
+    font-size: 1.1em;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.prix{
+    display: inline-block;
+    padding: 25px;
+}
+.prix p{
+    font-size: 1.6em;
+    color: rgb(231, 5, 5);
+}
+.cc11{
+    color: rgb(255, 174, 0);
+}
+.add{
+    background-color: brown;
+    padding: 0.8em 1.1em;
+    display: block;
+    transition: 0.7s ease;
+}
+.add:hover{
+    transform:scale(1.1) ;
+}
+#addd1{
+    margin-left: 90px;
+}
+.add1{
+    color: aliceblue;
+}
+.add2{
+    color: aliceblue;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+.consultant{
+    background: url(./imageGym/contact.webp) no-repeat;
+    width: 100%;
+    min-height: 70vh;
+    align-items: center;
+    display: flex;
+    background-size: cover;
+    
+}
+.consult h3{
+    font-family: 'Bungee', cursive;
+    font-size: 2.5em;
+    margin-left:390px ;
+    color: rgb(146, 194, 236);
+}
+.consult p{
+    color: rgb(240, 1, 1);
+    font-size: 2.5em;
+    margin-left:460px ;
+}
+.consult p span{
+    color: aliceblue;
+}
+
+.contact1{
+    display: inline-block;
+    padding: 50px;
+}
+.cont{
+    margin-bottom: 25px;
+    color: rgb(161, 158, 158);
+    font-size: 1.1em;
+}
+.icon1{
+    color: rgb(54, 160, 253);
+    background-color: rgb(212, 208, 208);
+    padding: 0.5em 1.1em;
+    border-radius: 10px;
+}
+.icon2{
+    color: rgb(238, 7, 7);
+    background-color: rgb(212, 208, 208);
+    padding: 0.5em 1.1em;
+    border-radius: 10px;
+}
+.contact1 h4{
+    font-size: 1.4em;
+    margin-bottom: 15px;
+    color: rgb(65, 66, 66);
+}
+.cont1 a{
+    text-decoration: none;
+    font-size: 1.1em;
+    color: rgb(161, 158, 158);
+    transition: 0.7s ease;
+}
+.cont1 a:hover{
+    color: rgb(231, 7, 7);
+}
+address{
+    font-size: 1.3em;
+    color: rgb(161, 158, 158);
+    margin-bottom: 10px;
+}
+.phone{
+    color: rgb(231, 7, 7);
+}
+.num{
+    color: rgb(231, 7, 7);
+    font-size: 1.3em;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.email{
+    font-size: 1.3em;
+    color: rgb(38, 142, 240);
+
+}
+footer{
+    background-color: black;
+    padding: 1em 1.4em;
+}
+footer p{
+    color: aliceblue;
+    font-size: 1.3em;
+    margin-left: 530px;
+    
+}
+
